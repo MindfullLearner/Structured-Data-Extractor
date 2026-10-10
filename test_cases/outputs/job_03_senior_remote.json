@@ -1,0 +1,23 @@
+{
+  "job_title": "Senior Backend Engineer",
+  "company": "CloudBridge",
+  "location": null,
+  "required_skills": [
+    "Python",
+    "FastAPI",
+    "PostgreSQL",
+    "Docker",
+    "AWS"
+  ],
+  "experience_level": "Senior",
+  "min_experience_years": 5.0,
+  "work_type": "Remote",
+  "employment_type": "Full-time",
+  "salary_amount": null,
+  "salary_period": "Annual",
+  "salary_is_estimated": false,
+  "salary_min": 110000,
+  "salary_max": 140000,
+  "salary_currency": "USD",
+  "application_deadline": null
+}

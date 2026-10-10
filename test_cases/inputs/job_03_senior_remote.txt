@@ -1,0 +1,1 @@
+CloudBridge is recruiting a Senior Backend Engineer for a fully remote role. Candidates need at least 5 years of professional experience and strong skills in Python, FastAPI, PostgreSQL, Docker, and AWS. Employment is full-time, with an annual salary of USD 110,000–140,000. The successful candidate will design APIs and mentor junior developers.

@@ -37,6 +37,16 @@ class JobPosting(BaseModel):
         "Internship",
         "Temporary",
     ] | None = None
+    
+    salary_amount: int | None = Field(default=None, ge=0)
+
+    salary_period: Literal[
+        "Hourly",
+        "Monthly",
+        "Annual",
+    ] | None = None
+
+    salary_is_estimated: bool | None = None
 
     # Salary fields
     salary_min: int | None = Field(default=None, ge=0)

@@ -1,0 +1,22 @@
+{
+  "job_title": "Frontend Developer",
+  "company": null,
+  "location": null,
+  "required_skills": [
+    "React",
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  "experience_level": null,
+  "min_experience_years": null,
+  "work_type": null,
+  "employment_type": null,
+  "salary_amount": null,
+  "salary_period": null,
+  "salary_is_estimated": null,
+  "salary_min": null,
+  "salary_max": null,
+  "salary_currency": null,
+  "application_deadline": null
+}

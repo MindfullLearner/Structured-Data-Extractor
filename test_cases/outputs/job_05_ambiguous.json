@@ -1,0 +1,22 @@
+{
+  "job_title": "Data Analyst",
+  "company": "DataVista",
+  "location": "Karachi, Pakistan",
+  "required_skills": [
+    "SQL",
+    "Python",
+    "Excel",
+    "dashboard development"
+  ],
+  "experience_level": null,
+  "min_experience_years": 2.0,
+  "work_type": "Hybrid",
+  "employment_type": "Full-time",
+  "salary_amount": 150000,
+  "salary_period": "Monthly",
+  "salary_is_estimated": true,
+  "salary_min": null,
+  "salary_max": null,
+  "salary_currency": "PKR",
+  "application_deadline": null
+}

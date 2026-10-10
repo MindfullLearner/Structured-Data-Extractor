@@ -40,3 +40,22 @@ try:
 except ValidationError as error:
     print("\nCategory validation worked:")
     print(error)
+
+def test_estimated_single_salary():
+    job = JobPosting(
+        job_title="Data Analyst",
+        salary_amount=150000,
+        salary_period="Monthly",
+        salary_is_estimated=True,
+        salary_currency="PKR",
+    )
+
+    assert job.salary_amount == 150000
+    assert job.salary_period == "Monthly"
+    assert job.salary_is_estimated is True
+    assert job.salary_min is None
+    assert job.salary_max is None
+
+    print("Estimated single salary validation worked.")
+if __name__ == "__main__":
+    test_estimated_single_salary()

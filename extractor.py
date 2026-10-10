@@ -40,6 +40,13 @@ def extract_job_posting(job_text: str) -> JobPosting:
     - Use an empty list if no required skills are stated.
     - Normalize categories to the allowed values in the schema.
     - Convert salary amounts to integers when possible.
+    - Use salary_min and salary_max for an explicitly stated salary range.
+    - Use salary_amount for a single stated salary amount.
+    - Do not turn a single salary amount into an exact range.
+    - Set salary_period to Hourly, Monthly, or Annual when stated or clearly implied.
+    - Set salary_is_estimated to true for approximate amounts such as "around 150,000".
+    - Set salary_is_estimated to false for explicitly stated exact amounts or ranges.
+    - If the salary format or estimate status is unclear, use None for the corresponding field.
     - Convert experience requirements to years when possible.
     - If a value cannot be reliably determined, leave it unknown.
 
